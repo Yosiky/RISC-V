@@ -1,3 +1,6 @@
+`ifndef MIRISCV_DEFINES_V
+`define MIRISCV_DEFINES_V
+
 // Opcode base instruction set
 `define OPCODE_LUI      5'b01101
 `define OPCODE_JAL      5'b11011
@@ -25,3 +28,5 @@
 `define ALU_BGE         5'b10101
 `define ALU_BLTU        5'b10110
 `define ALU_BGEU        5'b10111
+
+`endif
